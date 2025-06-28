@@ -50,12 +50,9 @@ The project includes comprehensive benchmarking between traditional breadth-firs
    GRANT ALL PRIVILEGES ON DATABASE smart_crawler TO crawler_user;
    ```
 
-3. **Clone and Build**
+3. **Build**
    ```bash
-   git clone <repository-url>
-   cd smart-crawler
-   
-   # Initialize Go module
+
    go mod init smart-crawler
    go mod tidy
    
